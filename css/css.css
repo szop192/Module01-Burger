@@ -55,3 +55,89 @@ body
 {
     background: #FFC725;
 }
+.button
+{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    gap: 10px;
+    
+}
+.button-text
+{
+    color: #443737;
+    font-size: 15px;
+    font-weight: 700;
+}
+.button-item
+{
+    position: relative;
+}
+.button-count
+{
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    background-color: #f37335;
+    border-radius: 100%;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    line-height: 1.3;
+    bottom: 3px;
+    right: -4px;
+}
+.bg
+{
+    text-align: center;
+    color: white;
+    background-image: url(/img/bg.jpg.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 142px 0px;
+}
+.breadcrumbs
+{
+    padding-left: 0px;
+    margin-top: 0px;
+    list-style-type:none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.breadcrumbs a
+{
+    color: #DEDEDE;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.breadcrumbs a::before
+{
+    content: '/';
+    position: relative;
+    left: -7px;
+}
+.breadcrumbs li:first-child a::before
+{
+    display: none;
+}
+.title
+{
+    font-size: 79px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.description
+{
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    color: #faf9f9;
+    max-width: 320px;
+    margin: 0 auto;
+}
