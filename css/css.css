@@ -754,7 +754,7 @@ select
     }
     .menu-other .menu-grid 
     {
-        padding-bottom: 24vw; 
+        padding-bottom: 40vw; 
     }
     .menu-other .menu-grid-cover 
     {
@@ -871,7 +871,7 @@ select
     }
     .footer-list-tel a 
     {
-        font-size: 15px;
+        font-size: 14px;
     }
   
 }
@@ -888,6 +888,9 @@ select
     {
         font-size: 20px;
     }
+    .footer-item h2 {
+        width: max-content;
+    }
 }
 @media(max-width: 320px)
 {
@@ -895,4 +898,41 @@ select
         background-position: 25% center;
         padding: 35px 24px 54px;
     }
+    .menu-grid-cover 
+    {
+        height: 50vw;
+    }
+    .menu-grid-cover img 
+    {
+        height: 100%;
+        margin-bottom: 7px;
+    }
+    .menu-other .menu-grid-item 
+    {
+        flex: 0 0 38vw;
+    }
+    .menu-grid-title 
+    {
+        font-size: 13px;
+    }
+    .menu-grid-price 
+    {
+        font-size: 16px;
+        margin-top: 6px;
+        margin-bottom: 14px;
+    }
+    .menu-grid-btn 
+    {
+        padding: 10px 21px 10px 28px;
+    }
+    .menu-other 
+    {
+        height: 124vw;
+    }
+    .menu-grid 
+    {
+        gap: 25px 6px;
+        margin-bottom: 40px;
+    }
+   
 }
