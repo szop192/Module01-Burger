@@ -370,6 +370,10 @@ select
     margin-bottom: 19px;
     margin-top: 0px;
 }
+.footer-list
+{
+    margin-top: 0px;
+}
 .footer-list li
 {
     margin-bottom: 9px;
@@ -506,8 +510,20 @@ select
     padding: 20px 45px;
     display: inline-block;
     text-transform: uppercase;
+    border: 1px solid #FBB731;
     font-size: 14px;
     font-weight: 700;
+    transition: 0.3s;
+}
+.promo a:hover
+{
+    background-color: transparent;
+    color: #FBB731;
+}
+.content-link:hover
+{
+    background-color: transparent;
+    color: #FBB731;
 }
 .visual
 {
@@ -868,10 +884,12 @@ select
     {
         display: block;
         text-align: right;
+        
     }
     .footer-list-tel a 
     {
-        font-size: 14px;
+        font-size: 16px;
+        
     }
   
 }
@@ -890,6 +908,7 @@ select
     }
     .footer-item h2 {
         width: max-content;
+        font-size: 18px;
     }
 }
 @media(max-width: 320px)
@@ -923,7 +942,7 @@ select
     }
     .menu-grid-btn 
     {
-        padding: 10px 21px 10px 28px;
+        padding: 10px 21px 10px 20px;
     }
     .menu-other 
     {
@@ -933,6 +952,10 @@ select
     {
         gap: 25px 6px;
         margin-bottom: 40px;
+    }
+    select 
+    {
+        padding: 13px 10px;
     }
    
 }
