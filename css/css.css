@@ -253,6 +253,7 @@ header
 select
 {
     border: 1px solid #DEDEDE;
+    background-color: white;
     padding: 13px 30px;
     border-radius: 22px;
     color: #443747;
